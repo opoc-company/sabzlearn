@@ -1,0 +1,91 @@
+
+
+@media (max-width : 1400px) {
+
+}
+@media (max-width : 1240px) {
+    .top-bar__link {
+        padding: 0 0.6rem;
+        font-size: 1.4rem;
+    }
+    
+}
+@media (max-width : 1050px) {
+
+    .item-hidden {
+        display: none;
+    }
+    .top-bar__email {
+        display: none;
+    }
+
+    .main-header__menu {
+        display: none;
+    }
+    
+    .mobile-icon {
+        display: flex;
+    }
+
+
+
+}
+@media (max-width : 768px) {
+
+
+    .landing__status {
+        flex-wrap: wrap;
+    }
+    .footer-copy {
+        font-size: 2rem;
+    }
+}
+@media (max-width : 576px) {
+
+    .landing__item-icon {
+        font-size: 4rem;
+    }
+    .landing__item-count {
+        font-size: 2rem;
+    }
+    .landing__item-description {
+        font-size: 1.5rem;
+    }
+    .footer-copy {
+        font-size: 1.5rem;
+    }
+
+
+    #r1 {
+        display: none;
+    }
+    .main-header__search-btn {
+        display: none;
+    }
+    .main-header__logo {
+        display: none;
+    }
+    .app-info__title {
+        font-size: 1.8rem;
+    }
+    .app-info__caption {
+        font-size: 1.3rem;
+    }
+    .app-info__link {
+        gap: 0.2rem;
+    }
+    .app-info__link-title {
+        font-size: 1.4rem;
+    }
+    .aboutus__item {
+        justify-content: center;
+    }
+
+    .footer__short-wrapper {
+
+        gap: 1.5rem;
+      }
+
+    
+    
+}
